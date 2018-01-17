@@ -13,6 +13,7 @@ class Anagram
   def match(word)
     word.detect do |word|
       @word == word
+      binding.pry
     end
   end
 end
