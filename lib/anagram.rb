@@ -11,10 +11,10 @@ class Anagram
   end
 
   def match(word)
-    word.detect do |word|
+    word.split(" ") do |word|
     if @word == word
       @@all << word
-    
+    end
       binding.pry
     end
   end
