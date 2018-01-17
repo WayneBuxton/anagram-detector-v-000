@@ -12,7 +12,9 @@ class Anagram
 
   def match(word)
     word.detect do |word|
-      @word == word
+    if @word == word
+      @@all << word
+    
       binding.pry
     end
   end
