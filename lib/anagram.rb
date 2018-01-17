@@ -11,8 +11,6 @@ class Anagram
   end
 
   def match(word)
-    word.split(" ") do |word|
-      binding.pry
-    end
+    @word.detect(%w(word))
   end
 end
