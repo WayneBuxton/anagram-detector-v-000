@@ -9,8 +9,8 @@ class Anagram
   end
 
   def match(word)
-    word.detect do |word|
-      @word
+    word.select do |word|
+      @word.
     end
   end
 end
