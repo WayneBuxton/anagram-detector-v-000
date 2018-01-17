@@ -12,9 +12,6 @@ class Anagram
 
   def match(word)
     word.split(" ").detect do |word|
-    if @word == word
-      @@all << word
-    end
       binding.pry
     end
   end
