@@ -11,7 +11,7 @@ class Anagram
   def match(word)
 
     word.each do |word|
-      @word.match(%w(word))
+      @word.match
     end
 
   end
