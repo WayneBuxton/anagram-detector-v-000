@@ -9,7 +9,7 @@ class Anagram
   end
 
   def match(word)
-    @word.detect do (%w(word))
+    word.detect do |word|
     end
   end
 end
