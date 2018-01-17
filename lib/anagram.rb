@@ -9,8 +9,10 @@ class Anagram
   end
 
   def match(word)
-    binding.pry
-    @word.match(word)
+    
+    word.each do |word|
+      binding.pry
+    end
 
   end
 end
