@@ -11,7 +11,7 @@ class Anagram
   end
 
   def match(word)
-    word.split(" ") do |word|
+    word.split(" ").detect do |word|
     if @word == word
       @@all << word
     end
