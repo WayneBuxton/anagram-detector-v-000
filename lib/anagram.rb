@@ -9,7 +9,6 @@ class Anagram
   end
 
   def match(word)
-    @word.detect(%w(word))
-    #binding.pry
+    @word.detect do (%w(word))
   end
 end
