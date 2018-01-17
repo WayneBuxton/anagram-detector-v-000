@@ -5,12 +5,13 @@ class Anagram
 
   def initialize(word)
     @word = word
+    binding.pry
   end
 
   def match(word)
     word.detect do |word|
-      
-      binding.pry
+
+
     end
   end
 end
